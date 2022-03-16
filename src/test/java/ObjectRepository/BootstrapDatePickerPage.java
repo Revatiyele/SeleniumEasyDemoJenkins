@@ -19,7 +19,7 @@ WebDriver driver;
 	@FindBy(xpath = "//*[@class = 'dropdown-menu'] //*[text() = 'Bootstrap Date Picker']")
 	WebElement bootstrapDatePicker;
 	
-	//
+	//Bootstrap single date field field
 	@FindBy(css = "[class = 'input-group date'] [class = 'form-control']")
 	WebElement singleDateField;
 	
