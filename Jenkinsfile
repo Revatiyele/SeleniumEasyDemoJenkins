@@ -16,16 +16,14 @@ stages {
 //         }
         stage('test') {
             steps {
-                bat "mvn test -f SeleniumEasyDemoJenkins"
+                bat "mvn test -f SeleniumEasyDemoJenkins" 
             }
-        }
-    stage('Results'){
-        post {
+             post {
             always {
                 testng testResults: '**/target/surefire-reports/*.xml', allowEmptyResults: false
             }
         }
-    }
+        }
 //         stage('package') {
 //             steps {
 //                 bat "mvn package -f SeleniumEasyDemoJenkins"
