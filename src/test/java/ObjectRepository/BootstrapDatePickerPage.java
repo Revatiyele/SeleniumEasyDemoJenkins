@@ -16,6 +16,8 @@ WebDriver driver;
 	}
 	
 	//BootStrap Date Picker locator
+	//BootStrap Date Picker locator
+
 
 
 	@FindBy(xpath = "//*[@class = 'dropdown-menu'] //*[text() = 'Bootstrap Date Picker']")
