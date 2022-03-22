@@ -118,8 +118,8 @@ public class AlertsDemoTest {
 		try {
 			//Assert.assertTrue(jsa.ConfirmBoxMessage().getText().contains("You pressed OK!"));
 
-			Assert.assertFalse(jsa.ConfirmBoxMessage().getText().contains("You pressed OK!"));
-			this.takeSnapShot(driver, "c:/test/test.png") ;
+			Assert.assertTrue(jsa.ConfirmBoxMessage().getText().contains("You pressed OK!"));
+			this.takeSnapShot(driver, "c:/test/test1.png") ;
 
 		} catch (AssertionError e) {
 			System.out.println("Confirm Box message not matched");
