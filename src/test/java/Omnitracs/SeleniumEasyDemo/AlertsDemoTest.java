@@ -1,5 +1,7 @@
 package Omnitracs.SeleniumEasyDemo;
 
+import java.io.File;
+import org.apache.commons.io.FileUtils;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -7,7 +9,9 @@ import java.net.URL;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
@@ -84,7 +88,7 @@ public class AlertsDemoTest {
 	}
 	
 	@Test
-	public void javaScriptAlertDemo() throws InterruptedException, IOException
+	public void javaScriptAlertDemo() throws Exception
 	{
 		ExtentTest test = extent.createTest("JavaScript Demo Test");
 		
@@ -102,7 +106,7 @@ public class AlertsDemoTest {
 		Thread.sleep(1000);
 		driver.switchTo().alert().accept();
 		test.pass("successfully clicked alert box");
-		
+		this.takeSnapShot(driver, "c:/test/test.png") ;
 		Thread.sleep(1000);
 		
 		jsa.ConfirmBox().click();
@@ -148,5 +152,15 @@ public class AlertsDemoTest {
 	}
 
 	
-
+	public static void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception
+	{
+	 
+	TakesScreenshot scrShot =((TakesScreenshot)webdriver);
+	 
+	File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+	 
+	File DestFile=new File(fileWithPath);
+	 
+	FileUtils.copyFile(SrcFile, DestFile);
+	}
 }
