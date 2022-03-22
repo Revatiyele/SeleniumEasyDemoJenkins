@@ -112,7 +112,8 @@ public class AlertsDemoTest {
 		jsa.ConfirmBox().click();
 		Thread.sleep(1000);
 		driver.switchTo().alert().accept();
-		
+		//code to check comfirmbox alert
+
 		//code to check comfirmbox alert
 		try {
 			//Assert.assertTrue(jsa.ConfirmBoxMessage().getText().contains("You pressed OK!"));
