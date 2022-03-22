@@ -115,7 +115,7 @@ public class AlertsDemoTest {
 		
 		//code to check comfirmbox alert
 		try {
-			Assert.assertTrue(jsa.ConfirmBoxMessage().getText().contains("You pressed OK!"));
+			Assert.assertFalse(jsa.ConfirmBoxMessage().getText().contains("You pressed OK!"));
 		} catch (AssertionError e) {
 			System.out.println("Confirm Box message not matched");
 		}
