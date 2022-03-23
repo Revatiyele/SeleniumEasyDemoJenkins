@@ -15,7 +15,7 @@ WebDriver driver;
 		PageFactory.initElements(driver2, this);
 	}
 	
-	//BootStrap Date Picker locator-test
+	//BootStrap Date Picker locator
 	
 
 
