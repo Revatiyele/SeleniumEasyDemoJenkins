@@ -1,37 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-22T16:26:58 IST" name="Default suite" finished-at="2022-03-22T16:27:20 IST" duration-ms="21880">
+  <suite started-at="2022-03-23T15:46:28 IST" name="Suite" finished-at="2022-03-23T15:47:14 IST" duration-ms="45824">
     <groups>
     </groups>
-    <test started-at="2022-03-22T16:26:58 IST" name="Default test" finished-at="2022-03-22T16:27:20 IST" duration-ms="21880">
-      <class name="Omnitracs.SeleniumEasyDemo.AlertsDemoTest">
-        <test-method is-config="true" signature="config()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@48aca48b]" started-at="2022-03-22T16:26:58 IST" name="config" finished-at="2022-03-22T16:26:58 IST" duration-ms="531" status="PASS">
+    <test started-at="2022-03-23T15:46:28 IST" name="Test1" finished-at="2022-03-23T15:46:42 IST" duration-ms="13298">
+      <class name="Omnitracs.SeleniumEasyDemo.DatePickerDemoTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:Omnitracs.SeleniumEasyDemo.DatePickerDemoTest@6bd61f98]" started-at="2022-03-23T15:46:28 IST" name="config" finished-at="2022-03-23T15:46:29 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method is-config="true" signature="initialSteps()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@48aca48b]" started-at="2022-03-22T16:26:58 IST" name="initialSteps" finished-at="2022-03-22T16:27:10 IST" duration-ms="11585" status="PASS">
+        <test-method is-config="true" signature="initialSteps()[pri:0, instance:Omnitracs.SeleniumEasyDemo.DatePickerDemoTest@6bd61f98]" started-at="2022-03-23T15:46:29 IST" name="initialSteps" finished-at="2022-03-23T15:46:37 IST" duration-ms="8370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSteps -->
-        <test-method is-config="true" signature="testDataFile()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@48aca48b]" started-at="2022-03-22T16:27:10 IST" name="testDataFile" finished-at="2022-03-22T16:27:10 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testDataFile()[pri:0, instance:Omnitracs.SeleniumEasyDemo.DatePickerDemoTest@6bd61f98]" started-at="2022-03-23T15:46:37 IST" name="testDataFile" finished-at="2022-03-23T15:46:37 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataFile -->
-        <test-method signature="javaScriptAlertDemo()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@48aca48b]" started-at="2022-03-22T16:27:10 IST" name="javaScriptAlertDemo" finished-at="2022-03-22T16:27:19 IST" duration-ms="8878" status="PASS">
+        <test-method signature="BootstrapDatePicker()[pri:0, instance:Omnitracs.SeleniumEasyDemo.DatePickerDemoTest@6bd61f98]" started-at="2022-03-23T15:46:37 IST" name="BootstrapDatePicker" finished-at="2022-03-23T15:46:41 IST" duration-ms="3923" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- javaScriptAlertDemo -->
-        <test-method is-config="true" signature="closeAllBrowsers()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@48aca48b]" started-at="2022-03-22T16:27:19 IST" name="closeAllBrowsers" finished-at="2022-03-22T16:27:20 IST" duration-ms="718" status="PASS">
+        </test-method> <!-- BootstrapDatePicker -->
+        <test-method is-config="true" signature="closeAllBrowsers()[pri:0, instance:Omnitracs.SeleniumEasyDemo.DatePickerDemoTest@6bd61f98]" started-at="2022-03-23T15:46:41 IST" name="closeAllBrowsers" finished-at="2022-03-23T15:46:42 IST" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAllBrowsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@48aca48b]" started-at="2022-03-22T16:27:20 IST" name="tearDown" finished-at="2022-03-22T16:27:21 IST" duration-ms="898" status="PASS">
+      </class> <!-- Omnitracs.SeleniumEasyDemo.DatePickerDemoTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-03-23T15:46:42 IST" name="Test2" finished-at="2022-03-23T15:47:00 IST" duration-ms="17875">
+      <class name="Omnitracs.SeleniumEasyDemo.InputFormDemoTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:42 IST" name="config" finished-at="2022-03-23T15:46:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="initialSteps()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:42 IST" name="initialSteps" finished-at="2022-03-23T15:46:49 IST" duration-ms="6965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSteps -->
+        <test-method is-config="true" signature="testDataFile()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:49 IST" name="testDataFile" finished-at="2022-03-23T15:46:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataFile -->
+        <test-method signature="checkBoxDemo()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:49 IST" name="checkBoxDemo" finished-at="2022-03-23T15:46:50 IST" duration-ms="953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxDemo -->
+        <test-method signature="dropDownDemo()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:50 IST" name="dropDownDemo" finished-at="2022-03-23T15:46:50 IST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownDemo -->
+        <test-method signature="inputFormDemo()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:50 IST" name="inputFormDemo" finished-at="2022-03-23T15:46:53 IST" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputFormDemo -->
+        <test-method signature="radioButtonDemo()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:53 IST" name="radioButtonDemo" finished-at="2022-03-23T15:46:54 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonDemo -->
+        <test-method signature="sampleInputFormDemo()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:54 IST" name="sampleInputFormDemo" finished-at="2022-03-23T15:46:55 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleInputFormDemo -->
+        <test-method is-config="true" signature="closeAllBrowsers()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:46:55 IST" name="closeAllBrowsers" finished-at="2022-03-23T15:47:00 IST" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllBrowsers -->
+      </class> <!-- Omnitracs.SeleniumEasyDemo.InputFormDemoTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-03-23T15:47:00 IST" name="Test3" finished-at="2022-03-23T15:47:14 IST" duration-ms="14580">
+      <class name="Omnitracs.SeleniumEasyDemo.DatePickerDemoTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omnitracs.SeleniumEasyDemo.DatePickerDemoTest@6bd61f98]" started-at="2022-03-23T15:47:14 IST" name="tearDown" finished-at="2022-03-23T15:47:15 IST" duration-ms="606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Omnitracs.SeleniumEasyDemo.DatePickerDemoTest -->
+      <class name="Omnitracs.SeleniumEasyDemo.AlertsDemoTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@2ddc9a9f]" started-at="2022-03-23T15:47:00 IST" name="config" finished-at="2022-03-23T15:47:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="initialSteps()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@2ddc9a9f]" started-at="2022-03-23T15:47:00 IST" name="initialSteps" finished-at="2022-03-23T15:47:06 IST" duration-ms="6621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSteps -->
+        <test-method is-config="true" signature="testDataFile()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@2ddc9a9f]" started-at="2022-03-23T15:47:06 IST" name="testDataFile" finished-at="2022-03-23T15:47:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataFile -->
+        <test-method signature="javaScriptAlertDemo()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@2ddc9a9f]" started-at="2022-03-23T15:47:06 IST" name="javaScriptAlertDemo" finished-at="2022-03-23T15:47:14 IST" duration-ms="7432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptAlertDemo -->
+        <test-method is-config="true" signature="closeAllBrowsers()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@2ddc9a9f]" started-at="2022-03-23T15:47:14 IST" name="closeAllBrowsers" finished-at="2022-03-23T15:47:14 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllBrowsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omnitracs.SeleniumEasyDemo.AlertsDemoTest@2ddc9a9f]" started-at="2022-03-23T15:47:15 IST" name="tearDown" finished-at="2022-03-23T15:47:15 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Omnitracs.SeleniumEasyDemo.AlertsDemoTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Omnitracs.SeleniumEasyDemo.InputFormDemoTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omnitracs.SeleniumEasyDemo.InputFormDemoTest@738dc9b]" started-at="2022-03-23T15:47:15 IST" name="tearDown" finished-at="2022-03-23T15:47:15 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Omnitracs.SeleniumEasyDemo.InputFormDemoTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>

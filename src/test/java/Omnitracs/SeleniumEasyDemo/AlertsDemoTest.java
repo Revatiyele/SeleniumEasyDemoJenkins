@@ -126,7 +126,7 @@ public class AlertsDemoTest {
 		}
 		//test.pass("successfully clicked Confirm box");
 
-		test.fail("successfully clicked Confirm box");
+		test.pass("successfully clicked Confirm box");
 		
 		Thread.sleep(1000);
 		
