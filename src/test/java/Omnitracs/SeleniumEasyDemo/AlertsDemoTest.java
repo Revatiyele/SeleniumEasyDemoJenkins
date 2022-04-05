@@ -80,10 +80,12 @@ public class AlertsDemoTest {
 	@BeforeTest
 	public void testDataFile() throws IOException {
 		properties = new Properties();
+// 		fis=new FileInputStream(
+// 				"C:\\Users\\REVATI YELE\\eclipse-workspace\\SeleniumEasyDemo\\src\\test\\Resources\\testData.properties");
+// 		properties.load(fis);
 		fis=new FileInputStream(
-				"C:\\Users\\REVATI YELE\\eclipse-workspace\\SeleniumEasyDemo\\src\\test\\Resources\\testData.properties");
+				"C:\\Users\\REVATI YELE\\git\\SystemTeam_SeleniumFramework\\SeleniumEasyDemo\\src\\test\\Resources\\testData.properties");
 		properties.load(fis);
-		
 	
 	}
 	
